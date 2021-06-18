@@ -56,4 +56,5 @@ build/
 
 ### VS Code ###
 .vscode/
->>>>>>> let's the battle begin
+/mvnw.cmd
+/mvnw
