@@ -5,7 +5,7 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-<!--	<include file="classpath:db/changelog/init/1_liquibase-changeLog-base-structure.sql"/>-->
+	<include file="classpath:db.changelog/init/liquibase-changeLog-base-v.1.0.0.sql"/>
 <!--	<include file="classpath:db/changelog/init/2_liquibase-changeLog-insert-content.sql"/>-->
 <!--	<include file="classpath:db/changelog/init/3_liquibase-changeLog-insert-test-content.sql"/>-->
 <!--	<include file="classpath:db/changelog/init/4_liquibase-changeLog-add-feedbacks-table.sql"/>-->

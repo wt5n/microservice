@@ -14,7 +14,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-@Table(name = "user")
+@Table(name = "users")
 @Entity
 @Data
 @AllArgsConstructor
@@ -27,7 +27,7 @@ public class User {
 	private Integer userId;
 	@Column(unique = true)
 	private String username;
-	private String token;
+	private String password;
 	@Column(name = "is_enabled")
 	private boolean isEnabled;
 //	@Enumerated(EnumType.STRING)
